@@ -1,0 +1,91 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    margin: 0%;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-family: 'Roboto Slab', serif;
+    font-size: xx-large;
+}
+
+.font {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.border {
+    border-left: 5px solid orangered;
+    padding-left: 10px;
+}
+
+.orange {
+    color: orange;
+    font-size: 40px;
+}
+
+section {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 10%;
+}
+
+.half-width img {
+    width: 75%;
+}
+
+a {
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-size: small;
+}
+
+.develop {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left 25px top 40px;
+    background-size: 16%;
+    padding-right: 122px;
+}
+
+.know {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 16%;
+    background-position: right bottom;
+}
+
+.stay {
+    padding-right: 122px;
+    background-image: url(images/shapes/shape-3.png), url(images/shapes/shape-3.png), url(images/shapes/shape-3.png);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 10%, 6%, 6%;
+    background-position: left 90px top, left 110px bottom 20px, left 375px bottom 150px;
+}
+
+.build {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lora', serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
